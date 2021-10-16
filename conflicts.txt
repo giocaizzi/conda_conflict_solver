@@ -1,0 +1,267 @@
+UnsatisfiableError: The following specifications were found to be incompatible with each other:
+
+Output in format: Requested package -> Available versions
+
+Package libzlib conflicts for:
+matplotlib -> python[version='>=3.8,<3.9.0a0'] -> libzlib[version='1.2.11|1.2.11|>=1.2.11,<1.3.0a0',build='h9173be1_1012|h9173be1_1013']
+pytrends -> python[version='>=3.3'] -> libzlib[version='>=1.2.11,<1.3.0a0']
+dataclasses -> python[version='>=3.7'] -> libzlib[version='>=1.2.11,<1.3.0a0']
+requests -> python[version='>=3.6'] -> libzlib[version='>=1.2.11,<1.3.0a0']
+numpy -> python[version='>=3.8,<3.9.0a0'] -> libzlib[version='>=1.2.11,<1.3.0a0']
+pip -> python[version='>=3.10,<3.11.0a0'] -> libzlib[version='>=1.2.11,<1.3.0a0']
+mplfinance -> python[version='>=3.6'] -> libzlib[version='>=1.2.11,<1.3.0a0']
+pandas -> python[version='>=3.7,<3.8.0a0'] -> libzlib[version='>=1.2.11,<1.3.0a0']
+ipython -> python[version='>=3.7,<3.8.0a0'] -> libzlib[version='>=1.2.11,<1.3.0a0']
+python-dateutil -> python -> libzlib[version='>=1.2.11,<1.3.0a0']
+python=3.6 -> zlib[version='>=1.2.11,<1.3.0a0'] -> libzlib==1.2.11[build='h9173be1_1012|h9173be1_1013']
+ipykernel -> python[version='>=3.7,<3.8.0a0'] -> libzlib[version='>=1.2.11,<1.3.0a0']
+python-telegram-bot -> python[version='>=3.6'] -> libzlib[version='>=1.2.11,<1.3.0a0']
+
+Package requests conflicts for:
+pytrends -> requests
+zipline -> pandas-datareader[version='>=0.2.1,<0.9.0'] -> requests[version='>=1.0.0|>=2.19.0|>=2.3.0']
+requests
+zipline -> requests[version='>=2.9.1']
+
+Package pypy3.7 conflicts for:
+numpy -> pypy3.7[version='>=7.3.3|>=7.3.4|>=7.3.5']
+ipython -> pypy3.7[version='>=7.3.3|>=7.3.4|>=7.3.5']
+pip -> setuptools -> pypy3.7[version='7.3.3.*|7.3.4.*|7.3.5.*|>=7.3.3|>=7.3.5']
+ipykernel -> pypy3.7[version='>=7.3.3|>=7.3.4']
+numpy -> python[version='>=3.7,<3.8.0a0'] -> pypy3.7[version='7.3.*|7.3.3.*|7.3.4.*|7.3.5.*']
+python-dateutil -> python -> pypy3.7[version='7.3.3.*|7.3.4.*|7.3.5.*']
+pandas -> python[version='>=3.7,<3.8.0a0'] -> pypy3.7[version='7.3.*|7.3.3.*|7.3.4.*|7.3.5.*']
+mplfinance -> matplotlib-base -> pypy3.7[version='7.3.3.*|7.3.4.*|7.3.5.*|>=7.3.3|>=7.3.4|>=7.3.5']
+ipykernel -> debugpy[version='>=1,<2.0'] -> pypy3.7[version='7.3.*|7.3.3.*|7.3.4.*|7.3.5.*|>=7.3.5']
+zipline -> bottleneck[version='>=1.0.0'] -> pypy3.7[version='>=7.3.3|>=7.3.5|>=7.3.4']
+pandas -> pypy3.7[version='>=7.3.3|>=7.3.4|>=7.3.5']
+python-telegram-bot -> apscheduler=3.6.3 -> pypy3.7[version='7.3.3.*|7.3.4.*|7.3.5.*|>=7.3.3|>=7.3.5|>=7.3.4']
+pytrends -> lxml -> pypy3.7[version='7.3.3.*|7.3.4.*|7.3.5.*|>=7.3.3|>=7.3.5|>=7.3.4']
+dataclasses -> python[version='>=3.7'] -> pypy3.7[version='7.3.3.*|7.3.4.*|7.3.5.*']
+matplotlib -> python[version='>=3.7,<3.8.0a0'] -> pypy3.7[version='7.3.*|7.3.3.*|7.3.4.*|7.3.5.*']
+ipython -> python[version='>=3.7,<3.8.0a0'] -> pypy3.7[version='7.3.*|7.3.3.*|7.3.4.*|7.3.5.*']
+requests -> certifi[version='>=2017.4.17'] -> pypy3.7[version='7.3.3.*|7.3.4.*|7.3.5.*|>=7.3.3|>=7.3.4|>=7.3.5']
+matplotlib -> pypy3.7[version='>=7.3.3|>=7.3.4|>=7.3.5']
+
+Package backports conflicts for:
+matplotlib -> backports.functools_lru_cache -> backports
+ipython -> backports.shutil_get_terminal_size -> backports
+
+Package setuptools conflicts for:
+zipline -> setuptools[version='>18.0']
+pandas -> numexpr[version='>=2.7.0'] -> setuptools
+ipython -> pygments -> setuptools
+python=3.6 -> pip -> setuptools
+zipline -> iso4217[version='>=1.6.20180829'] -> setuptools
+python-telegram-bot -> apscheduler=3.6.3 -> setuptools
+pip -> setuptools
+ipython -> setuptools[version='>=18.5']
+matplotlib -> setuptools
+mplfinance -> matplotlib-base -> setuptools
+ipykernel -> ipython[version='>=7.23.1,<8.0'] -> setuptools[version='>=18.5']
+
+Package pip conflicts for:
+python=3.6 -> pip
+pip
+ipykernel -> python[version='>=3.9,<3.10.0a0'] -> pip
+pytrends -> python[version='>=3.3'] -> pip
+dataclasses -> python[version='>=3.7'] -> pip
+pandas -> python[version='>=3.7,<3.8.0a0'] -> pip
+zipline -> python[version='>=3.6,<3.7.0a0'] -> pip
+numpy -> python[version='>=3.8,<3.9.0a0'] -> pip
+ipython -> python[version='>=3.9,<3.10.0a0'] -> pip
+requests -> python[version='>=3.6'] -> pip
+python-telegram-bot -> python[version='>=3.6'] -> pip
+zipline -> pip[version='>=7.1.0']
+mplfinance -> python[version='>=3.6'] -> pip
+matplotlib -> python[version='>=3.8,<3.9.0a0'] -> pip
+
+Package tzdata conflicts for:
+pandas -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+ipython -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+ipykernel -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+pip -> python[version='>=3.10,<3.11.0a0'] -> tzdata
+pytrends -> python[version='>=3.3'] -> tzdata
+matplotlib -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+python-telegram-bot -> python[version='>=3.6'] -> tzdata
+mplfinance -> python[version='>=3.6'] -> tzdata
+requests -> python[version='>=3.6'] -> tzdata
+python-dateutil -> python -> tzdata
+dataclasses -> python[version='>=3.7'] -> tzdata
+numpy -> python[version='>=3.9,<3.10.0a0'] -> tzdata
+
+Package python-dateutil conflicts for:
+zipline -> python-dateutil[version='>=2.4.2']
+pytrends -> pandas[version='>=0.25'] -> python-dateutil[version='>=2.6.1|>=2.7.3']
+ipykernel -> jupyter_client[version='<8.0'] -> python-dateutil[version='>=2.1']
+zipline -> alembic[version='>=0.7.7'] -> python-dateutil[version='>=2.5.*|>=2.6.1|>=2.7.3']
+pandas -> python-dateutil[version='>=2.5.*|>=2.6.1|>=2.7.3']
+matplotlib -> python-dateutil
+matplotlib -> matplotlib-base[version='>=3.4.2,<3.4.3.0a0'] -> python-dateutil[version='>=2.1']
+python-dateutil
+mplfinance -> matplotlib-base -> python-dateutil[version='>=2.1|>=2.7.3|>=2.6.1|>=2.5.*']
+
+Package wheel conflicts for:
+python=3.6 -> pip -> wheel
+zipline -> pip[version='>=7.1.0'] -> wheel
+pip -> wheel
+
+Package libcxxabi conflicts for:
+pandas -> libcxx[version='>=4.0.1'] -> libcxxabi[version='4.0.1|8.0.1|8.0.0|8.0.0|8.0.0|8.0.0',build='3|0|hcfea43d_1|hebd6815_0|4|2|1']
+numpy -> libcxx[version='>=4.0.1'] -> libcxxabi[version='4.0.1|8.0.1|8.0.0|8.0.0|8.0.0|8.0.0',build='3|0|hcfea43d_1|hebd6815_0|4|2|1']
+matplotlib -> libcxx[version='>=4.0.1'] -> libcxxabi[version='4.0.1|8.0.1|8.0.0|8.0.0|8.0.0|8.0.0',build='3|0|hcfea43d_1|hebd6815_0|4|2|1']
+python=3.6 -> libcxx[version='>=4.0.1'] -> libcxxabi[version='4.0.1|8.0.1|8.0.0|8.0.0|8.0.0|8.0.0',build='3|0|hcfea43d_1|hebd6815_0|4|2|1']
+
+Package certifi conflicts for:
+pip -> setuptools -> certifi[version='>=2016.09|>=2016.9.26']
+zipline -> requests[version='>=2.9.1'] -> certifi[version='>=2016.09|>=2016.9.26|>=2017.4.17']
+matplotlib -> matplotlib-base[version='>=3.4.2,<3.4.3.0a0'] -> certifi[version='>=2016.09|>=2016.9.26|>=2020.06.20']
+mplfinance -> matplotlib-base -> certifi[version='>=2020.06.20']
+pytrends -> requests -> certifi[version='>=2017.4.17']
+python-telegram-bot -> certifi
+ipykernel -> tornado[version='>=4.2,<7.0'] -> certifi
+requests -> certifi[version='>=2017.4.17']
+requests -> urllib3[version='>=1.21.1,<1.27'] -> certifi
+ipython -> setuptools[version='>=18.5'] -> certifi[version='>=2016.09|>=2016.9.26']
+
+Package ipython conflicts for:
+ipykernel -> ipython[version='>=4.0.0|>=4.0|>=5.0|>=7.23.1,<8.0|>=7.23.1']
+ipython
+
+Package pytz conflicts for:
+python-telegram-bot -> apscheduler=3.6.3 -> pytz
+pandas -> pytz[version='>=2017.2|>=2017.3']
+pytrends -> pandas[version='>=0.25'] -> pytz[version='>=2017.2|>=2017.3']
+mplfinance -> matplotlib-base -> pytz[version='>=2017.2|>=2017.3']
+python-telegram-bot -> pytz[version='>=2018.6']
+zipline -> pytz[version='>=2015.4|>=2016.4|>=2018.5']
+matplotlib -> pytz
+zipline -> pandas[version='>=0.16.1'] -> pytz[version='>=2017.2|>=2017.3']
+
+Package ca-certificates conflicts for:
+ipykernel -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+zipline -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+requests -> python -> ca-certificates
+python-telegram-bot -> python -> ca-certificates
+ipython -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+numpy -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+pandas -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+python=3.6 -> openssl[version='>=1.1.1j,<1.1.2a'] -> ca-certificates
+pip -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+python-dateutil -> python -> ca-certificates
+matplotlib -> python[version='>=2.7,<2.8.0a0'] -> ca-certificates
+
+Package contextlib2 conflicts for:
+ipykernel -> importlib-metadata[version='<5'] -> contextlib2
+zipline -> contextlib2[version='>=0.4.0']
+
+Package expat conflicts for:
+python=3.6 -> pypy3.6=7.3.3 -> expat[version='>=2.2.10,<3.0.0a0|>=2.2.9,<3.0.0a0']
+ipykernel -> pypy3.6[version='>=7.3.3'] -> expat[version='>=2.2.10,<3.0.0a0|>=2.2.9,<3.0.0a0|>=2.4.1,<3.0a0|>=2.3.0,<3.0a0']
+matplotlib -> pypy3.7[version='>=7.3.5'] -> expat[version='>=2.2.10,<3.0.0a0|>=2.3.0,<3.0a0|>=2.4.1,<3.0a0|>=2.2.9,<3.0.0a0']
+pandas -> pypy3.7[version='>=7.3.5'] -> expat[version='>=2.2.10,<3.0.0a0|>=2.3.0,<3.0a0|>=2.4.1,<3.0a0|>=2.2.9,<3.0.0a0']
+numpy -> pypy3.7[version='>=7.3.5'] -> expat[version='>=2.2.10,<3.0.0a0|>=2.3.0,<3.0a0|>=2.4.1,<3.0a0|>=2.2.9,<3.0.0a0']
+ipython -> pypy3.7[version='>=7.3.5'] -> expat[version='>=2.2.10,<3.0.0a0|>=2.3.0,<3.0a0|>=2.4.1,<3.0a0|>=2.2.9,<3.0.0a0']
+
+Package six conflicts for:
+pandas -> python-dateutil[version='>=2.7.3'] -> six[version='>=1.5']
+python-telegram-bot -> apscheduler=3.6.3 -> six[version='>=1.4.0|>=1.4.1']
+numpy -> mkl-service[version='>=2.3.0,<3.0a0'] -> six
+ipykernel -> traitlets[version='>=4.1.0,<6.0'] -> six
+zipline -> empyrical[version='>=0.5.0'] -> six[version='>=1.4.0|>=1.5']
+matplotlib -> cycler[version='>=0.10'] -> six[version='>=1.5']
+python-dateutil -> six[version='>=1.5']
+zipline -> six[version='>=1.10.0|>=1.9.0']
+ipython -> prompt-toolkit[version='>=2.0.0,!=3.0.0,!=3.0.1,<3.1.0'] -> six[version='>=1.9.0']
+
+Package cachetools conflicts for:
+python-telegram-bot -> cachetools=4.2.2
+zipline -> cachetools[version='>=1.1.5']
+
+Package pandas conflicts for:
+zipline -> pandas[version='>=0.16.1|>=0.16.1,<0.18|>=0.18.1,<0.19|>=0.18.1,<=0.22']
+zipline -> pandas-datareader[version='>=0.2.1,<0.9.0'] -> pandas[version='>=0.14|>=0.17.0,<0.19|>=0.19.2|>=0.21|>=1.0|>=0.23|>=1.1']
+mplfinance -> pandas
+pandas
+pytrends -> pandas[version='>=0.25']
+
+Package tornado conflicts for:
+zipline -> matplotlib -> tornado
+matplotlib -> tornado
+mplfinance -> matplotlib-base -> tornado
+ipykernel -> tornado[version='>=4.0|>=4.2|>=4.2,<7.0']
+ipykernel -> jupyter_client[version='<8.0'] -> tornado[version='>=4.1|>=4.1,<6']
+python-telegram-bot -> tornado[version='>=5.1|>=6.1']
+
+Package backports_abc conflicts for:
+ipykernel -> tornado[version='>=4.2,<7.0'] -> backports_abc[version='>=0.4']
+python-telegram-bot -> tornado[version='>=5.1'] -> backports_abc[version='>=0.4']
+matplotlib -> tornado -> backports_abc[version='>=0.4']
+
+Package numpy conflicts for:
+pytrends -> pandas[version='>=0.25'] -> numpy[version='>=1.13.3,<2.0a0|>=1.14.6,<2.0a0|>=1.15.4,<2.0a0|>=1.16.6,<2.0a0|>=1.19.2,<2.0a0|>=1.20.3,<2.0a0|>=1.20.2,<2.0a0|>=1.19.5,<2.0a0|>=1.18.5,<2.0a0|>=1.17.5,<2.0a0|>=1.19.4,<2.0a0|>=1.16.5,<2.0a0|>=1.18.4,<2.0a0|>=1.18.1,<2.0a0']
+matplotlib -> matplotlib-base[version='>=3.4.2,<3.4.3.0a0'] -> numpy[version='>=1.11.3,<2.0a0|>=1.15.4,<2.0a0|>=1.16.6,<2.0a0|>=1.18.5,<2.0a0|>=1.17.5,<2.0a0|>=1.19.5,<2.0a0|>=1.16.5,<2.0a0|>=1.19.4,<2.0a0|>=1.19.2,<2.0a0|>=1.9.3,<2.0a0']
+matplotlib -> numpy[version='1.10.*|1.11.*|>=1.14.6,<2.0a0']
+mplfinance -> matplotlib-base -> numpy[version='1.10.*|1.11.*|1.12.*|1.13.*|>=1.11|>=1.11.*|>=1.11.3,<2.0a0|>=1.14.6,<2.0a0|>=1.15.4,<2.0a0|>=1.16.6,<2.0a0|>=1.18.5,<2.0a0|>=1.19.5,<2.0a0|>=1.17.5,<2.0a0|>=1.19.4,<2.0a0|>=1.16.5,<2.0a0|>=1.19.2,<2.0a0|>=1.9.3,<2.0a0|>=1.20.3,<2.0a0|>=1.20.2,<2.0a0|>=1.13.3,<2.0a0|>=1.12.1,<2.0a0|>=1.9.3,<1.10.0a0|>=1.9|>=1.18.4,<2.0a0|>=1.18.1,<2.0a0|>=1.9.*|>=1.8|>=1.7']
+pandas -> numexpr[version='>=2.7.0'] -> numpy[version='>=1.16.4,<2.0a0']
+pandas -> numpy[version='1.10.*|1.11.*|1.12.*|1.13.*|>=1.11|>=1.11.*|>=1.11.3,<2.0a0|>=1.12.1,<2.0a0|>=1.13.3,<2.0a0|>=1.14.6,<2.0a0|>=1.15.4,<2.0a0|>=1.16.6,<2.0a0|>=1.19.2,<2.0a0|>=1.20.3,<2.0a0|>=1.20.2,<2.0a0|>=1.9.3,<2.0a0|>=1.9.3,<1.10.0a0|>=1.9|>=1.19.5,<2.0a0|>=1.18.5,<2.0a0|>=1.17.5,<2.0a0|>=1.19.4,<2.0a0|>=1.16.5,<2.0a0|>=1.18.4,<2.0a0|>=1.18.1,<2.0a0|>=1.9.*|>=1.8|>=1.7']
+numpy
+zipline -> numpy[version='1.10.*|1.9.*|>=1.11,<1.12.0a0|>=1.11.3,<2.0a0|>=1.14,<1.15.0a0|1.8.*']
+zipline -> bcolz[version='>=0.12.1'] -> numpy[version='1.11.*|1.12.*|>=1.11|>=1.14.6,<2.0a0|>=1.9.3,<2.0a0|>=1.16.6,<2.0a0|>=1.19.5,<2.0a0|>=1.18.5,<2.0a0|>=1.16.5,<2.0a0|>=1.19.2,<2.0a0|>=1.18.1,<2.0a0|>=1.8|1.13.*|>=1.9.2|>=1.17.5,<2.0a0|>=1.19.4,<2.0a0|>=1.8,<1.14|>=1.16.4,<2.0a0|>=1.15.4,<2.0a0|>=1.11.3|>=1.9.3,<1.10.0a0|>=1.9|>=1.11.*|>=1.9.*|>=1.7|>=1.4.0|>=1.15.1,<2.0a0|>=1.17.0,<2.0a0|>=1.19.1,<2.0a0|>=1.17.3,<2.0a0|>=1.19|>=1.20.3,<2.0a0|>=1.20.2,<2.0a0|>=1.13.3,<2.0a0|>=1.12.1,<2.0a0|>=1.18.4,<2.0a0']
+
+Package fonttools conflicts for:
+mplfinance -> matplotlib-base -> fonttools[version='>=4.22.0']
+matplotlib -> matplotlib-base[version='>=3.4.2,<3.4.3.0a0'] -> fonttools[version='>=4.22.0']
+
+Package decorator conflicts for:
+ipykernel -> ipython[version='>=7.23.1,<8.0'] -> decorator
+zipline -> networkx[version='>=1.9.1,<2.0'] -> decorator[version='>=3.4.0|>=4.1.0|>=4.3.0,<5|>=4.3.0']
+ipython -> decorator
+zipline -> decorator[version='>=4.0.0']
+python-telegram-bot -> decorator[version='>=4.4.0']
+
+Package ssl_match_hostname conflicts for:
+ipykernel -> tornado[version='>=4.2,<7.0'] -> ssl_match_hostname
+matplotlib -> tornado -> ssl_match_hostname
+
+Package numpy-base conflicts for:
+numpy -> numpy-base[version='1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.14.3|1.14.3|1.14.3|1.14.3|1.14.3|1.14.3|1.14.4|1.14.4|1.14.4|1.14.4|1.14.4|1.14.4|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.3|1.15.3|1.15.3|1.15.3|1.15.3|1.15.3|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.2|1.16.2|1.16.2|1.16.2|1.16.2|1.16.2|1.16.3|1.16.3|1.16.3|1.16.3|1.16.3|1.16.3|1.16.4|1.16.4|1.16.4|1.16.4|1.16.4|1.16.4|1.16.5|1.16.5|1.16.5|1.16.5|1.16.5|1.16.5|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.17.2.*|1.17.3.*|1.17.4.*|1.18.1.*|1.18.5.*|1.19.1|1.19.1|1.19.1|1.19.1|1.19.1|1.19.1|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.20.1|1.20.1|1.20.1|1.20.1|1.20.1|1.20.1|1.20.2|1.20.2|1.20.2|1.20.2|1.20.2|1.20.2|1.20.3|1.20.3|1.20.3|1.20.3|1.20.3|1.20.3|1.21.2|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|>=1.9.3,<2.0a0|1.17.0|1.17.0',build='py36ha711998_0|py27ha9ae307_6|py37h9797aa9_6|py36h9797aa9_6|py37ha9ae307_6|py37ha9ae307_7|py35ha9ae307_7|py36ha9ae307_7|py27ha9ae307_7|py27ha9ae307_7|py37ha9ae307_7|py27h9797aa9_8|py36h9797aa9_8|py37ha9ae307_8|py37h8a80b8c_9|py27h8a80b8c_9|py36h8a80b8c_9|py37h42e5f7b_10|py27h42e5f7b_10|py35h8a80b8c_10|py37h8a80b8c_10|py36h42e5f7b_10|py27ha711998_10|py37ha711998_10|py36ha711998_10|py27ha711998_11|py36ha711998_11|py37h6575580_11|py36h6575580_11|py36h6575580_12|py37ha711998_12|py36ha711998_12|py27ha711998_12|py38h6575580_13|py38ha711998_14|py36h7ef55bc_1|py36h479e554_1|py35h479e554_1|py27h479e554_1|py27h7ef55bc_1|py35h7ef55bc_1|py27h9797aa9_0|py36h9797aa9_0|py35ha9ae307_0|py36h9797aa9_0|py27ha9ae307_0|py35h9797aa9_0|py36h9797aa9_1|py37h9797aa9_1|py27h9797aa9_2|py37h9797aa9_3|py27ha9ae307_3|py37ha9ae307_3|py27ha9ae307_4|py27h9797aa9_4|py36ha9ae307_4|py36h9797aa9_4|py37ha9ae307_4|py35h9797aa9_4|py27ha711998_4|py36h8a80b8c_4|py38h6575580_4|py36h6575580_5|py37he97cb71_0|py35h8a80b8c_0|py35he97cb71_0|py37h42e5f7b_0|py35h42e5f7b_0|py27h42e5f7b_0|py35h8a80b8c_0|py27ha711998_0|py36ha711998_0|py37ha711998_0|py27ha711998_0|py35h8a80b8c_0|py37ha711998_0|py36ha711998_0|py37ha711998_1|py27h8a80b8c_1|py36h8a80b8c_1|py37ha711998_0|py36ha711998_0|py27ha711998_0|py36ha711998_0|py37ha711998_0|py37h6575580_0|py27ha711998_0|py37ha711998_0|py36ha711998_0|py27ha711998_0|py37ha711998_0|py27h6575580_0|py37h6575580_0|py27h6575580_1|py37h6575580_1|py36ha711998_0|py36h6575580_0|py37ha711998_0|py27h6575580_0|py37h6575580_0|py36ha711998_0|py27ha711998_0|py37ha711998_0|py37ha711998_0|py27ha711998_0|py27h6575580_0|py37h6575580_0|py37ha711998_0|py36ha711998_0|py27ha711998_0|py36h6575580_0|py27h6575580_0|py37h6575580_0|py37ha711998_0|py36ha711998_0|py37h6575580_0|py38ha711998_0|py27ha711998_0|py39hd037223_1|py39h7ca7dfd_1|py39hd037223_3|py37hd037223_3|py38hd037223_3|py39h4850c68_3|py36h4850c68_3|py36h68fea81_0|py37hcfb5961_0|py37h68fea81_0|py36hcfb5961_0|py38hcfb5961_0|py36hcfb5961_0|py37hcfb5961_0|py38hcfb5961_0|py38h68fea81_0|py36h68fea81_0|py37h68fea81_0|py39hde55871_0|py39h3a452eb_0|py39h585ceec_0|py37h585ceec_0|py38h3a452eb_0|py39h3a452eb_0|py39he0bd621_0|py37hbbe2e76_0|py37hbbe2e76_0|py38hbbe2e76_0|py39he0bd621_0|py37hbbe2e76_0|py38he0bd621_0|py39he0bd621_0|py38hbbe2e76_0|py37he0bd621_0|py39hbbe2e76_0|py38he0bd621_0|py37he0bd621_0|py39hbbe2e76_0|py37he0bd621_0|py38he0bd621_0|py38hbbe2e76_0|py39hbbe2e76_0|py38h585ceec_0|py37h3a452eb_0|py38h68fea81_0|py37h4850c68_3|py38h4850c68_3|py36hd037223_3|py27h6575580_0|py38h6575580_0|py36h6575580_0|py36h6575580_0|py36ha711998_0|py36h6575580_0|py27h6575580_0|py37h6575580_0|py27ha711998_0|py36h6575580_1|py37ha711998_1|py27ha711998_1|py36ha711998_1|py36h6575580_0|py36h6575580_1|py27h6575580_1|py37ha711998_1|py36ha711998_1|py37h6575580_1|py27ha711998_1|py36h6575580_0|py27h6575580_0|py36ha711998_0|py37h6575580_0|py36h6575580_0|py27h6575580_0|py36h8a80b8c_0|py37h8a80b8c_0|py27h8a80b8c_0|py36h8a80b8c_0|py27h8a80b8c_0|py27ha711998_0|py37h8a80b8c_0|py37h8a80b8c_1|py36ha711998_1|py27ha711998_1|py35ha711998_0|py27h8a80b8c_0|py36h8a80b8c_0|py37h8a80b8c_0|py35ha711998_0|py37h8a80b8c_0|py27h8a80b8c_0|py36h42e5f7b_0|py36h8a80b8c_0|py36he97cb71_0|py36h8a80b8c_0|py27h8a80b8c_0|py37h8a80b8c_0|py27he97cb71_0|py37h6575580_5|py37ha711998_5|py27h6575580_5|py27ha711998_5|py36ha711998_5|py38ha711998_4|py27h8a80b8c_4|py37h8a80b8c_4|py37ha711998_4|py35h8a80b8c_4|py35ha711998_4|py36ha711998_4|py35ha9ae307_4|py37h9797aa9_4|py36h9797aa9_3|py27h9797aa9_3|py36ha9ae307_3|py27ha9ae307_2|py37ha9ae307_2|py36ha9ae307_2|py36h9797aa9_2|py37h9797aa9_2|py36ha9ae307_1|py27ha9ae307_1|py37ha9ae307_1|py27h9797aa9_1|py35ha9ae307_0|py27h9797aa9_0|py36ha9ae307_0|py36ha9ae307_0|py27ha9ae307_0|py35h9797aa9_0|py38h6575580_15|py38ha711998_15|py38h6575580_14|py38ha711998_13|py38h6575580_12|py38ha711998_12|py37h6575580_12|py27h6575580_12|py27h6575580_11|py37ha711998_11|py35ha711998_10|py27h8a80b8c_10|py35h42e5f7b_10|py36h8a80b8c_10|py35he97cb71_9|py36he97cb71_9|py27he97cb71_9|py35h8a80b8c_9|py37he97cb71_9|py35ha9ae307_8|py35h9797aa9_8|py37h9797aa9_8|py36ha9ae307_8|py27ha9ae307_8|py36ha9ae307_7|py36h9797aa9_7|py37h9797aa9_7|py27h9797aa9_7|py27h9797aa9_7|py36h9797aa9_7|py35h9797aa9_7|py37h9797aa9_7|py36ha9ae307_6|py27h9797aa9_6|py36h6575580_0']
+zipline -> numexpr[version='>=2.6.1'] -> numpy-base[version='1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.14.3|1.14.3|1.14.3|1.14.3|1.14.3|1.14.3|1.14.4|1.14.4|1.14.4|1.14.4|1.14.4|1.14.4|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.3|1.15.3|1.15.3|1.15.3|1.15.3|1.15.3|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.2|1.16.2|1.16.2|1.16.2|1.16.2|1.16.2|1.16.3|1.16.3|1.16.3|1.16.3|1.16.3|1.16.3|1.16.4|1.16.4|1.16.4|1.16.4|1.16.4|1.16.4|1.16.5|1.16.5|1.16.5|1.16.5|1.16.5|1.16.5|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.17.2.*|1.17.3.*|1.17.4.*|1.18.1.*|1.18.5.*|1.19.1|1.19.1|1.19.1|1.19.1|1.19.1|1.19.1|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.20.1|1.20.1|1.20.1|1.20.1|1.20.1|1.20.1|1.20.2|1.20.2|1.20.2|1.20.2|1.20.2|1.20.2|1.20.3|1.20.3|1.20.3|1.20.3|1.20.3|1.20.3|1.21.2|1.21.2|1.21.2|1.21.2|1.21.2|1.21.2|>=1.17.3,<2.0a0|1.17.0|1.17.0|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|>=1.9.3,<2.0a0',build='py27ha9ae307_6|py37ha9ae307_6|py37ha9ae307_7|py36ha9ae307_7|py27ha9ae307_7|py36h6575580_0|py27ha9ae307_7|py37ha9ae307_7|py27h9797aa9_8|py36h9797aa9_8|py37ha9ae307_8|py37h8a80b8c_9|py27h8a80b8c_9|py36h8a80b8c_9|py37h42e5f7b_10|py27h42e5f7b_10|py35h8a80b8c_10|py37h8a80b8c_10|py36h42e5f7b_10|py27ha711998_10|py37ha711998_10|py36ha711998_10|py27ha711998_11|py36ha711998_11|py37h6575580_11|py36h6575580_11|py36h6575580_12|py37ha711998_12|py36ha711998_12|py27ha711998_12|py38h6575580_13|py38ha711998_14|py36h7ef55bc_1|py36h479e554_1|py35h479e554_1|py27h479e554_1|py27h7ef55bc_1|py35h7ef55bc_1|py27h9797aa9_0|py36h9797aa9_0|py35ha9ae307_0|py36h9797aa9_0|py27ha9ae307_0|py35h9797aa9_0|py36h9797aa9_1|py37h9797aa9_1|py27h9797aa9_2|py37h9797aa9_3|py27ha9ae307_3|py37ha9ae307_3|py27ha9ae307_4|py27h9797aa9_4|py36ha9ae307_4|py36h9797aa9_4|py37ha9ae307_4|py35h9797aa9_4|py27ha711998_4|py36h8a80b8c_4|py38h6575580_4|py36h6575580_5|py37he97cb71_0|py35h8a80b8c_0|py35he97cb71_0|py37h42e5f7b_0|py35h42e5f7b_0|py27h42e5f7b_0|py35h8a80b8c_0|py27ha711998_0|py36ha711998_0|py37ha711998_0|py27ha711998_0|py35h8a80b8c_0|py37ha711998_0|py36ha711998_0|py37ha711998_1|py27h8a80b8c_1|py36h8a80b8c_1|py37ha711998_0|py36ha711998_0|py27ha711998_0|py36ha711998_0|py37ha711998_0|py37h6575580_0|py27ha711998_0|py37ha711998_0|py36ha711998_0|py27ha711998_0|py37ha711998_0|py27h6575580_0|py37h6575580_0|py27h6575580_1|py37h6575580_1|py36ha711998_0|py36h6575580_0|py37ha711998_0|py27h6575580_0|py37h6575580_0|py36ha711998_0|py27ha711998_0|py37ha711998_0|py37ha711998_0|py27ha711998_0|py27h6575580_0|py37h6575580_0|py37ha711998_0|py36ha711998_0|py27ha711998_0|py36h6575580_0|py27h6575580_0|py37h6575580_0|py37ha711998_0|py36ha711998_0|py37h6575580_0|py38ha711998_0|py27ha711998_0|py39hd037223_1|py39h7ca7dfd_1|py39hd037223_3|py37hd037223_3|py38hd037223_3|py39h4850c68_3|py36h4850c68_3|py36h68fea81_0|py37hcfb5961_0|py37h68fea81_0|py36hcfb5961_0|py38hcfb5961_0|py36hcfb5961_0|py37hcfb5961_0|py38hcfb5961_0|py38h68fea81_0|py36h68fea81_0|py37h68fea81_0|py39hde55871_0|py39h3a452eb_0|py39h585ceec_0|py37h585ceec_0|py38h3a452eb_0|py39h3a452eb_0|py39he0bd621_0|py37hbbe2e76_0|py37hbbe2e76_0|py38hbbe2e76_0|py39he0bd621_0|py37hbbe2e76_0|py38he0bd621_0|py39he0bd621_0|py38hbbe2e76_0|py37he0bd621_0|py39hbbe2e76_0|py38he0bd621_0|py37he0bd621_0|py39hbbe2e76_0|py37he0bd621_0|py38he0bd621_0|py38hbbe2e76_0|py39hbbe2e76_0|py38h585ceec_0|py37h3a452eb_0|py38h68fea81_0|py37h4850c68_3|py38h4850c68_3|py36hd037223_3|py27h6575580_0|py38h6575580_0|py36h6575580_0|py36h6575580_0|py36ha711998_0|py36h6575580_0|py27h6575580_0|py37h6575580_0|py27ha711998_0|py36h6575580_1|py37ha711998_1|py27ha711998_1|py36ha711998_1|py36h6575580_0|py36h6575580_1|py27h6575580_1|py37ha711998_1|py36ha711998_1|py37h6575580_1|py27ha711998_1|py36h6575580_0|py27h6575580_0|py36ha711998_0|py37h6575580_0|py36h6575580_0|py27h6575580_0|py36h8a80b8c_0|py37h8a80b8c_0|py27h8a80b8c_0|py36h8a80b8c_0|py27h8a80b8c_0|py27ha711998_0|py37h8a80b8c_0|py37h8a80b8c_1|py36ha711998_1|py27ha711998_1|py35ha711998_0|py27h8a80b8c_0|py36h8a80b8c_0|py37h8a80b8c_0|py35ha711998_0|py37h8a80b8c_0|py27h8a80b8c_0|py36h42e5f7b_0|py36h8a80b8c_0|py36he97cb71_0|py36h8a80b8c_0|py27h8a80b8c_0|py37h8a80b8c_0|py27he97cb71_0|py37h6575580_5|py37ha711998_5|py27h6575580_5|py27ha711998_5|py36ha711998_5|py38ha711998_4|py27h8a80b8c_4|py37h8a80b8c_4|py37ha711998_4|py35h8a80b8c_4|py35ha711998_4|py36ha711998_4|py35ha9ae307_4|py37h9797aa9_4|py36h9797aa9_3|py27h9797aa9_3|py36ha9ae307_3|py27ha9ae307_2|py37ha9ae307_2|py36ha9ae307_2|py36h9797aa9_2|py37h9797aa9_2|py36ha9ae307_1|py27ha9ae307_1|py37ha9ae307_1|py27h9797aa9_1|py35ha9ae307_0|py27h9797aa9_0|py36ha9ae307_0|py36ha9ae307_0|py27ha9ae307_0|py35h9797aa9_0|py38h6575580_15|py38ha711998_15|py38h6575580_14|py38ha711998_13|py38h6575580_12|py38ha711998_12|py37h6575580_12|py27h6575580_12|py27h6575580_11|py37ha711998_11|py35ha711998_10|py27h8a80b8c_10|py35h42e5f7b_10|py36h8a80b8c_10|py35he97cb71_9|py36he97cb71_9|py27he97cb71_9|py35h8a80b8c_9|py37he97cb71_9|py35ha9ae307_8|py35h9797aa9_8|py37h9797aa9_8|py36ha9ae307_8|py27ha9ae307_8|py36ha9ae307_7|py36h9797aa9_7|py37h9797aa9_7|py27h9797aa9_7|py36ha711998_0|py27h9797aa9_7|py36h9797aa9_7|py35ha9ae307_7|py35h9797aa9_7|py37h9797aa9_7|py36ha9ae307_6|py36h9797aa9_6|py37h9797aa9_6|py27h9797aa9_6']
+numpy -> mkl_fft -> numpy-base[version='>=1.0.14,<2.0a0|>=1.0.6,<2.0a0|>=1.0.2,<2.0a0|>=1.0.4,<2.0a0']
+pandas -> numexpr[version='>=2.7.0'] -> numpy-base[version='1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.14.3|1.14.3|1.14.3|1.14.3|1.14.3|1.14.3|1.14.4|1.14.4|1.14.4|1.14.4|1.14.4|1.14.4|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.3|1.15.3|1.15.3|1.15.3|1.15.3|1.15.3|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.2|1.16.2|1.16.2|1.16.2|1.16.2|1.16.2|1.16.3|1.16.3|1.16.3|1.16.3|1.16.3|1.16.3|1.16.4|1.16.4|1.16.4|1.16.4|1.16.4|1.16.4|1.16.5|1.16.5|1.16.5|1.16.5|1.16.5|1.16.5|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.17.2.*|1.17.3.*|1.17.4.*|1.18.1.*|1.18.5.*|1.19.1|1.19.1|1.19.1|1.19.1|1.19.1|1.19.1|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.20.1|1.20.1|1.20.1|1.20.1|1.20.1|1.20.1|1.20.2|1.20.2|1.20.2|1.20.2|1.20.2|1.20.2|1.20.3|1.20.3|1.20.3|1.20.3|1.20.3|1.20.3|1.21.2|1.21.2|1.21.2|1.21.2|1.21.2|1.21.2|>=1.17.3,<2.0a0|1.17.0|1.17.0|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|>=1.9.3,<2.0a0',build='py27ha9ae307_6|py37h9797aa9_6|py36h9797aa9_6|py37ha9ae307_7|py35ha9ae307_7|py36ha9ae307_7|py27ha9ae307_7|py27ha9ae307_7|py27h9797aa9_8|py36h9797aa9_8|py37ha9ae307_8|py37h9797aa9_8|py37he97cb71_9|py37h8a80b8c_9|py27h8a80b8c_9|py37h42e5f7b_10|py27h42e5f7b_10|py36h8a80b8c_10|py35h8a80b8c_10|py37h8a80b8c_10|py36h42e5f7b_10|py27ha711998_10|py35ha711998_10|py37ha711998_10|py36ha711998_10|py27ha711998_11|py37h6575580_11|py36h6575580_11|py36h6575580_12|py38ha711998_12|py38ha711998_14|py38h6575580_15|py36h7ef55bc_1|py36h479e554_1|py35h479e554_1|py27h479e554_1|py35h7ef55bc_1|py27h9797aa9_0|py35h9797aa9_0|py36h9797aa9_0|py27h9797aa9_0|py35h9797aa9_0|py36h9797aa9_1|py37h9797aa9_1|py36ha9ae307_2|py27h9797aa9_2|py27ha9ae307_2|py27ha9ae307_3|py27ha9ae307_4|py27h9797aa9_4|py36ha9ae307_4|py36h9797aa9_4|py35h8a80b8c_4|py37h8a80b8c_4|py36h8a80b8c_4|py27h8a80b8c_4|py27ha711998_5|py36h6575580_5|py37ha711998_5|py27he97cb71_0|py27h8a80b8c_0|py37he97cb71_0|py35h8a80b8c_0|py35he97cb71_0|py37h42e5f7b_0|py36h8a80b8c_0|py35h42e5f7b_0|py27h42e5f7b_0|py27h8a80b8c_0|py35h8a80b8c_0|py27ha711998_0|py36ha711998_0|py37ha711998_0|py27ha711998_0|py35h8a80b8c_0|py37ha711998_0|py36ha711998_0|py37ha711998_1|py27h8a80b8c_1|py36h8a80b8c_1|py37ha711998_0|py27ha711998_0|py36ha711998_0|py27h8a80b8c_0|py27ha711998_0|py36ha711998_0|py37ha711998_0|py37h6575580_0|py27ha711998_0|py37ha711998_0|py36ha711998_0|py27h6575580_0|py36h6575580_0|py37h6575580_1|py36h6575580_1|py36ha711998_0|py27ha711998_0|py37ha711998_0|py27h6575580_0|py37ha711998_1|py36h6575580_1|py36ha711998_0|py27ha711998_0|py37ha711998_0|py27h6575580_0|py37h6575580_0|py27ha711998_0|py37ha711998_0|py36ha711998_0|py37ha711998_0|py27ha711998_0|py27h6575580_0|py37h6575580_0|py37ha711998_0|py27ha711998_0|py27h6575580_0|py37h6575580_0|py36ha711998_0|py36h6575580_0|py37ha711998_0|py36ha711998_0|py37h6575580_0|py38ha711998_0|py27ha711998_0|py39hd037223_1|py39h7ca7dfd_1|py39hd037223_3|py37hd037223_3|py38hd037223_3|py39h4850c68_3|py36h4850c68_3|py36h68fea81_0|py37hcfb5961_0|py37h68fea81_0|py36hcfb5961_0|py38hcfb5961_0|py36hcfb5961_0|py37hcfb5961_0|py38hcfb5961_0|py38h68fea81_0|py36h68fea81_0|py37h68fea81_0|py39hde55871_0|py39h3a452eb_0|py39h585ceec_0|py37h585ceec_0|py38h3a452eb_0|py39h3a452eb_0|py39he0bd621_0|py37hbbe2e76_0|py37hbbe2e76_0|py38hbbe2e76_0|py39he0bd621_0|py37hbbe2e76_0|py38he0bd621_0|py39he0bd621_0|py38hbbe2e76_0|py37he0bd621_0|py39hbbe2e76_0|py38he0bd621_0|py37he0bd621_0|py39hbbe2e76_0|py37he0bd621_0|py38he0bd621_0|py38hbbe2e76_0|py39hbbe2e76_0|py38h585ceec_0|py37h3a452eb_0|py38h68fea81_0|py37h4850c68_3|py38h4850c68_3|py36hd037223_3|py27h6575580_0|py38h6575580_0|py36h6575580_0|py36h6575580_0|py36ha711998_0|py36h6575580_0|py36h6575580_0|py27h6575580_0|py36ha711998_0|py37h6575580_0|py36h6575580_0|py27ha711998_1|py37h6575580_1|py27h6575580_1|py36ha711998_1|py37h6575580_0|py36h6575580_0|py27h6575580_1|py37ha711998_1|py36ha711998_1|py27ha711998_1|py37h6575580_0|py36h6575580_0|py27h6575580_0|py36h8a80b8c_0|py37h8a80b8c_0|py36h8a80b8c_0|py27h8a80b8c_0|py37h8a80b8c_0|py37h8a80b8c_1|py36ha711998_1|py27ha711998_1|py35ha711998_0|py27h8a80b8c_0|py36h8a80b8c_0|py37h8a80b8c_0|py35ha711998_0|py37h8a80b8c_0|py36h42e5f7b_0|py36he97cb71_0|py36h8a80b8c_0|py37h8a80b8c_0|py37h6575580_5|py27h6575580_5|py36ha711998_5|py38h6575580_4|py38ha711998_4|py27ha711998_4|py37ha711998_4|py35ha711998_4|py36ha711998_4|py35ha9ae307_4|py35h9797aa9_4|py37h9797aa9_4|py37ha9ae307_4|py37ha9ae307_3|py37h9797aa9_3|py36h9797aa9_3|py27h9797aa9_3|py36ha9ae307_3|py37ha9ae307_2|py36h9797aa9_2|py37h9797aa9_2|py36ha9ae307_1|py27ha9ae307_1|py37ha9ae307_1|py27h9797aa9_1|py35ha9ae307_0|py27ha9ae307_0|py36h9797aa9_0|py36ha9ae307_0|py35ha9ae307_0|py36ha9ae307_0|py27ha9ae307_0|py27h7ef55bc_1|py38ha711998_15|py38h6575580_14|py38h6575580_13|py38ha711998_13|py38h6575580_12|py37h6575580_12|py27ha711998_12|py36ha711998_12|py37ha711998_12|py27h6575580_12|py27h6575580_11|py36ha711998_11|py37ha711998_11|py27h8a80b8c_10|py35h42e5f7b_10|py35he97cb71_9|py36he97cb71_9|py27he97cb71_9|py35h8a80b8c_9|py36h8a80b8c_9|py35ha9ae307_8|py35h9797aa9_8|py36ha9ae307_8|py27ha9ae307_8|py37ha9ae307_7|py36ha9ae307_7|py36h9797aa9_7|py37h9797aa9_7|py27h9797aa9_7|py27h9797aa9_7|py36h9797aa9_7|py35h9797aa9_7|py37h9797aa9_7|py36ha9ae307_6|py37ha9ae307_6|py27h9797aa9_6']
+matplotlib -> numpy[version='>=1.14.6,<2.0a0'] -> numpy-base[version='1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.11.3|1.14.3|1.14.3|1.14.3|1.14.3|1.14.3|1.14.3|1.14.4|1.14.4|1.14.4|1.14.4|1.14.4|1.14.4|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.5|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.14.6|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.0|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.1|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.2|1.15.3|1.15.3|1.15.3|1.15.3|1.15.3|1.15.3|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.15.4|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.0|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.1|1.16.2|1.16.2|1.16.2|1.16.2|1.16.2|1.16.2|1.16.3|1.16.3|1.16.3|1.16.3|1.16.3|1.16.3|1.16.4|1.16.4|1.16.4|1.16.4|1.16.4|1.16.4|1.16.5|1.16.5|1.16.5|1.16.5|1.16.5|1.16.5|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.16.6|1.17.2.*|1.17.3.*|1.17.4.*|1.18.1.*|1.18.5.*|1.19.1|1.19.1|1.19.1|1.19.1|1.19.1|1.19.1|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.19.2|1.20.1|1.20.1|1.20.1|1.20.1|1.20.1|1.20.1|1.20.2|1.20.2|1.20.2|1.20.2|1.20.2|1.20.2|1.20.3|1.20.3|1.20.3|1.20.3|1.20.3|1.20.3|1.21.2|1.17.0|1.17.0|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|1.9.3|>=1.9.3,<2.0a0',build='py27ha9ae307_6|py37h9797aa9_6|py36h9797aa9_6|py37ha9ae307_7|py35ha9ae307_7|py36ha9ae307_7|py27ha9ae307_7|py36ha9ae307_7|py37ha9ae307_7|py36ha9ae307_8|py36h9797aa9_8|py37ha9ae307_8|py37h9797aa9_8|py37h8a80b8c_9|py27h8a80b8c_9|py36h8a80b8c_9|py27he97cb71_9|py37h42e5f7b_10|py27h42e5f7b_10|py36h8a80b8c_10|py35h8a80b8c_10|py37h8a80b8c_10|py36h42e5f7b_10|py27ha711998_10|py37ha711998_10|py36ha711998_11|py37h6575580_11|py36h6575580_11|py36h6575580_12|py37ha711998_12|py27ha711998_12|py38h6575580_13|py36h7ef55bc_1|py36h479e554_1|py35h479e554_1|py27h479e554_1|py35h7ef55bc_1|py35h9797aa9_0|py36ha9ae307_0|py36h9797aa9_0|py36ha9ae307_0|py27h9797aa9_0|py27ha9ae307_0|py35ha9ae307_0|py35h9797aa9_0|py27h9797aa9_1|py36h9797aa9_1|py37h9797aa9_1|py37h9797aa9_2|py36ha9ae307_2|py27h9797aa9_2|py37h9797aa9_3|py27ha9ae307_3|py27ha9ae307_4|py27h9797aa9_4|py36ha9ae307_4|py36h9797aa9_4|py37ha9ae307_4|py35ha9ae307_4|py36ha711998_0|py27ha711998_4|py36h8a80b8c_4|py38h6575580_4|py36h6575580_5|py37he97cb71_0|py35h8a80b8c_0|py35he97cb71_0|py37h42e5f7b_0|py35h42e5f7b_0|py27h42e5f7b_0|py35h8a80b8c_0|py27ha711998_0|py36ha711998_0|py37ha711998_0|py27ha711998_0|py35h8a80b8c_0|py37ha711998_0|py36ha711998_0|py37ha711998_1|py27h8a80b8c_1|py36h8a80b8c_1|py37ha711998_0|py36ha711998_0|py27ha711998_0|py36ha711998_0|py37ha711998_0|py37h6575580_0|py27ha711998_0|py37ha711998_0|py36ha711998_0|py27ha711998_0|py37ha711998_0|py27h6575580_0|py37h6575580_0|py27h6575580_1|py37h6575580_1|py36ha711998_0|py36h6575580_0|py37ha711998_0|py27h6575580_0|py37h6575580_0|py36ha711998_0|py27ha711998_0|py37ha711998_0|py37ha711998_0|py27ha711998_0|py27h6575580_0|py37h6575580_0|py37ha711998_0|py36ha711998_0|py27ha711998_0|py36h6575580_0|py27h6575580_0|py37h6575580_0|py37ha711998_0|py36ha711998_0|py37h6575580_0|py38ha711998_0|py27ha711998_0|py39hd037223_1|py39h7ca7dfd_1|py39hd037223_3|py37hd037223_3|py38hd037223_3|py39h4850c68_3|py36h4850c68_3|py36h68fea81_0|py37hcfb5961_0|py37h68fea81_0|py36hcfb5961_0|py38hcfb5961_0|py36hcfb5961_0|py37hcfb5961_0|py38hcfb5961_0|py38h68fea81_0|py36h68fea81_0|py37h68fea81_0|py39hde55871_0|py39h3a452eb_0|py39h585ceec_0|py37h585ceec_0|py38h3a452eb_0|py39h3a452eb_0|py39he0bd621_0|py37hbbe2e76_0|py37hbbe2e76_0|py38hbbe2e76_0|py39he0bd621_0|py37hbbe2e76_0|py38he0bd621_0|py39he0bd621_0|py38hbbe2e76_0|py37he0bd621_0|py39hbbe2e76_0|py38he0bd621_0|py37he0bd621_0|py39hbbe2e76_0|py37he0bd621_0|py38he0bd621_0|py38hbbe2e76_0|py39hbbe2e76_0|py38h585ceec_0|py37h3a452eb_0|py38h68fea81_0|py37h4850c68_3|py38h4850c68_3|py36hd037223_3|py27h6575580_0|py38h6575580_0|py36h6575580_0|py36h6575580_0|py36ha711998_0|py36h6575580_0|py27h6575580_0|py37h6575580_0|py27ha711998_0|py36h6575580_1|py37ha711998_1|py27ha711998_1|py36ha711998_1|py36h6575580_0|py36h6575580_1|py27h6575580_1|py37ha711998_1|py36ha711998_1|py37h6575580_1|py27ha711998_1|py36h6575580_0|py27h6575580_0|py36ha711998_0|py37h6575580_0|py36h6575580_0|py27h6575580_0|py36h8a80b8c_0|py37h8a80b8c_0|py27h8a80b8c_0|py36h8a80b8c_0|py27h8a80b8c_0|py27ha711998_0|py37h8a80b8c_0|py37h8a80b8c_1|py36ha711998_1|py27ha711998_1|py35ha711998_0|py27h8a80b8c_0|py36h8a80b8c_0|py37h8a80b8c_0|py35ha711998_0|py37h8a80b8c_0|py27h8a80b8c_0|py36h42e5f7b_0|py36h8a80b8c_0|py36he97cb71_0|py36h8a80b8c_0|py27h8a80b8c_0|py37h8a80b8c_0|py27he97cb71_0|py37h6575580_5|py37ha711998_5|py27h6575580_5|py27ha711998_5|py36ha711998_5|py38ha711998_4|py27h8a80b8c_4|py37h8a80b8c_4|py37ha711998_4|py35h8a80b8c_4|py35ha711998_4|py36ha711998_4|py36h6575580_0|py35h9797aa9_4|py37h9797aa9_4|py37ha9ae307_3|py36h9797aa9_3|py27h9797aa9_3|py36ha9ae307_3|py27ha9ae307_2|py37ha9ae307_2|py36h9797aa9_2|py36ha9ae307_1|py27ha9ae307_1|py37ha9ae307_1|py36h9797aa9_0|py35ha9ae307_0|py27ha9ae307_0|py27h9797aa9_0|py27h7ef55bc_1|py38h6575580_15|py38ha711998_15|py38h6575580_14|py38ha711998_14|py38ha711998_13|py38h6575580_12|py38ha711998_12|py37h6575580_12|py36ha711998_12|py27h6575580_12|py27h6575580_11|py27ha711998_11|py37ha711998_11|py36ha711998_10|py35ha711998_10|py27h8a80b8c_10|py35h42e5f7b_10|py35he97cb71_9|py36he97cb71_9|py35h8a80b8c_9|py37he97cb71_9|py35ha9ae307_8|py35h9797aa9_8|py27h9797aa9_8|py27ha9ae307_8|py36h9797aa9_7|py37h9797aa9_7|py27h9797aa9_7|py27ha9ae307_7|py27h9797aa9_7|py36h9797aa9_7|py35h9797aa9_7|py37h9797aa9_7|py36ha9ae307_6|py37ha9ae307_6|py27h9797aa9_6']
+
+Package kiwisolver conflicts for:
+matplotlib -> matplotlib-base[version='>=3.4.2,<3.4.3.0a0'] -> kiwisolver[version='>=1.0.1']
+zipline -> matplotlib -> kiwisolver
+matplotlib -> kiwisolver
+mplfinance -> matplotlib-base -> kiwisolver[version='>=1.0.1']
+
+Package libgfortran5 conflicts for:
+zipline -> scipy[version='>=0.17.1'] -> libgfortran5[version='>=9.3.0']
+numpy -> blas=[build=openblas] -> libgfortran5[version='>=9.3.0']
+
+Package cryptography conflicts for:
+python-telegram-bot -> cryptography
+requests -> urllib3[version='>=1.21.1,<1.27'] -> cryptography[version='>=1.3.4']
+
+Package idna conflicts for:
+zipline -> requests[version='>=2.9.1'] -> idna[version='>=2.5,<2.6|>=2.5,<2.7|>=2.5,<2.8|>=2.5,<2.9|>=2.5,<3|>=2.5,<4']
+pytrends -> requests -> idna[version='>=2.5,<2.6|>=2.5,<2.7|>=2.5,<2.8|>=2.5,<2.9|>=2.5,<3|>=2.5,<4']
+requests -> idna[version='>=2.5,<2.6|>=2.5,<2.7|>=2.5,<2.8|>=2.5,<2.9|>=2.5,<3|>=2.5,<4']
+python-telegram-bot -> cryptography -> idna[version='>=2.1']
+requests -> urllib3[version='>=1.21.1,<1.27'] -> idna[version='>=2.0.0']
+
+Package enum34 conflicts for:
+ipykernel -> traitlets[version='>=4.1.0,<6.0'] -> enum34
+python-telegram-bot -> cryptography -> enum34
+ipython -> traitlets[version='>=4.2'] -> enum34
+
+Package lxml conflicts for:
+pytrends -> lxml
+zipline -> pandas-datareader[version='>=0.2.1,<0.9.0'] -> lxml
+
+Package matplotlib conflicts for:
+zipline -> networkx[version='>=1.9.1'] -> matplotlib[version='>=3.3']
+matplotlib
+zipline -> matplotlib
